@@ -1,5 +1,0 @@
-c:\users\jneto\source\repos\FeriadosMoveis\Catolicos\bin\Debug\Catolicos.dll
-c:\users\jneto\source\repos\FeriadosMoveis\Catolicos\bin\Debug\Catolicos.pdb
-c:\users\jneto\source\repos\FeriadosMoveis\Catolicos\obj\Debug\Catolicos.csproj.CoreCompileInputs.cache
-c:\users\jneto\source\repos\FeriadosMoveis\Catolicos\obj\Debug\Catolicos.dll
-c:\users\jneto\source\repos\FeriadosMoveis\Catolicos\obj\Debug\Catolicos.pdb

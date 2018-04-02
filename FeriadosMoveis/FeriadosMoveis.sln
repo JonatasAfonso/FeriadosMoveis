@@ -1,18 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catolicos", "Catolicos\Catolicos.csproj", "{22F6B509-DC8D-46D2-9B0C-EAC7843B40B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catolicos", "FeriadosMoveis\Catolicos.csproj", "{0A609906-1105-4C6B-8FDB-5088F0E18B1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catolicos.Tests", "CatolicosTests\Catolicos.Tests.csproj", "{4597AE00-2FBA-4E75-83A8-074333105ED8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feriados", "Feriados", "{99B235A5-7488-4A25-9B27-E3D9ADA951AF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Documentacao", "_Documentacao", "{0E0E77B7-1765-4092-8318-6D9E484CC367}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Documentacao", "_Documentacao", "{4EBC09CB-078E-4227-9B5F-F0787751419D}"
 	ProjectSection(SolutionItems) = preProject
-		feriados.pdf = feriados.pdf
+		..\_Documentacao2\feriados.pdf = ..\_Documentacao2\feriados.pdf
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feriados", "Feriados", "{18FCACE0-1750-47FC-9747-442231FB3369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catolicos.Tests", "Catolicos.Tests\Catolicos.Tests.csproj", "{9D4EC4DC-BD06-44B8-81EF-E67EA819CFC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiasUteis", "DiasUteis", "{6D39218E-1846-40D4-8DBC-0978FA902818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiasUteis.Tests", "DiasUteis.Tests\DiasUteis.Tests.csproj", "{E69BA73D-D5B0-4B55-A905-CE65F2FDD093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiasUteis", "DiasUteis\DiasUteis.csproj", "{E7506BCB-179A-41BB-A92E-C9E3566ADCCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feriados", "Feriados\Feriados.csproj", "{179C5409-2423-4F35-9222-C4AA047AEB9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,23 +28,38 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{22F6B509-DC8D-46D2-9B0C-EAC7843B40B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22F6B509-DC8D-46D2-9B0C-EAC7843B40B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{22F6B509-DC8D-46D2-9B0C-EAC7843B40B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{22F6B509-DC8D-46D2-9B0C-EAC7843B40B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4597AE00-2FBA-4E75-83A8-074333105ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4597AE00-2FBA-4E75-83A8-074333105ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4597AE00-2FBA-4E75-83A8-074333105ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4597AE00-2FBA-4E75-83A8-074333105ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A609906-1105-4C6B-8FDB-5088F0E18B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A609906-1105-4C6B-8FDB-5088F0E18B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A609906-1105-4C6B-8FDB-5088F0E18B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A609906-1105-4C6B-8FDB-5088F0E18B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4EC4DC-BD06-44B8-81EF-E67EA819CFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4EC4DC-BD06-44B8-81EF-E67EA819CFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4EC4DC-BD06-44B8-81EF-E67EA819CFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4EC4DC-BD06-44B8-81EF-E67EA819CFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69BA73D-D5B0-4B55-A905-CE65F2FDD093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69BA73D-D5B0-4B55-A905-CE65F2FDD093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69BA73D-D5B0-4B55-A905-CE65F2FDD093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69BA73D-D5B0-4B55-A905-CE65F2FDD093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7506BCB-179A-41BB-A92E-C9E3566ADCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7506BCB-179A-41BB-A92E-C9E3566ADCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7506BCB-179A-41BB-A92E-C9E3566ADCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7506BCB-179A-41BB-A92E-C9E3566ADCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{179C5409-2423-4F35-9222-C4AA047AEB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179C5409-2423-4F35-9222-C4AA047AEB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179C5409-2423-4F35-9222-C4AA047AEB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179C5409-2423-4F35-9222-C4AA047AEB9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{22F6B509-DC8D-46D2-9B0C-EAC7843B40B3} = {18FCACE0-1750-47FC-9747-442231FB3369}
-		{4597AE00-2FBA-4E75-83A8-074333105ED8} = {18FCACE0-1750-47FC-9747-442231FB3369}
+		{0A609906-1105-4C6B-8FDB-5088F0E18B1A} = {99B235A5-7488-4A25-9B27-E3D9ADA951AF}
+		{9D4EC4DC-BD06-44B8-81EF-E67EA819CFC7} = {99B235A5-7488-4A25-9B27-E3D9ADA951AF}
+		{E69BA73D-D5B0-4B55-A905-CE65F2FDD093} = {6D39218E-1846-40D4-8DBC-0978FA902818}
+		{E7506BCB-179A-41BB-A92E-C9E3566ADCCA} = {6D39218E-1846-40D4-8DBC-0978FA902818}
+		{179C5409-2423-4F35-9222-C4AA047AEB9D} = {99B235A5-7488-4A25-9B27-E3D9ADA951AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4683598D-D5D8-43EA-90BE-6305E736816C}
+		SolutionGuid = {4FA62967-CC4C-4864-9073-21A694E1BE69}
 	EndGlobalSection
 EndGlobal
